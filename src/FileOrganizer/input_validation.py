@@ -12,16 +12,21 @@ drink = pyip.inputMenu(['Latte', 'Cappuccino', 'Espresso', 'Mocha', 'Cafe au Lai
                        prompt='')
 
 #Prompt if dairy is okay
-print('Is dairy okay?')
+print('\nIs dairy okay?\n')
 
 #Yes/No input validation
 
 #If yes prompt flavor
 #If no prompt dairy alternatives
 
-dairy_alt = pyip.inputMenu(['Oat', 'Almond', 'Coconut'],
+dairy_alt = pyip.inputMenu(['Oat', 'Almond', 'Coconut', 'Dairy Okay'],
                        prompt='')
 
 # Prompt if the user would like to add flavor
+print('\nWould you like to add a flavor?\n')
 # If yes, prompt flavors
+add_flavor = pyip.inputMenu(['Vanilla', 'Hazelnut', 'Caramel', 'White Chocolate'],
+                       prompt='')
 # If no, repeat complete order to user
+
+print(f'\nYour {add_flavor} {drink} will be right out!')
