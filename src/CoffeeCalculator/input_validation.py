@@ -7,7 +7,7 @@ import pyinputplus as pyip
 print('\nMorning! What can I get started for you?\n')
 
 #Get user's order: drink, dairy preferences, flavor 
-drink = pyip.inputMenu(['Latte', 'Cappuccino', 'Mocha', 'Cafe au Lait'],
+drink = pyip.inputMenu(['Latte', 'Cappuccino', 'Mocha'],
                        prompt='')
 
 #Prompt if dairy is okay
